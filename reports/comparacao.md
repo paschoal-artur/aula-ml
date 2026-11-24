@@ -12,7 +12,7 @@ O modelo r2 classificou corretamente o chamado de teste `010`, “bloqueio de co
 
 ## Restauração de r1
 
-Selecionei `modelo-r1` em um clone limpo do repositório Git local, no commit `9f2962612a3aca8184154f5b6bd2212c96e0f799`. Antes de `dvc pull`, o clone tinha os descritores DVC. Após a recuperação pelo remoto `storage`, os três SHA-256 abaixo coincidiram com o manifesto de r1. A restauração foi feita sem novo treinamento.
+Selecionei `modelo-r1` em um clone limpo do [repositório no GitHub](https://github.com/paschoal-artur/aula-ml), no commit `9f2962612a3aca8184154f5b6bd2212c96e0f799`. Antes de `dvc pull`, o clone tinha os descritores DVC. Após a recuperação pelo remoto `storage`, os três SHA-256 abaixo coincidiram com o manifesto de r1. A restauração foi feita sem novo treinamento.
 
 | Arquivo | SHA-256 verificado |
 | --- | --- |

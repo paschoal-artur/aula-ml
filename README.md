@@ -23,10 +23,10 @@ dvc remote modify --local storage url /caminho/para/dvc-storage
 
 ## Restaurar a primeira versão
 
-Execute a partir do diretório que contém `dvc-storage`. Substitua `URL_DO_REPOSITORIO` pela URL de clonagem.
+Execute a partir do diretório que contém `dvc-storage`.
 
 ```bash
-git clone URL_DO_REPOSITORIO aula-ml-restauracao
+git clone https://github.com/paschoal-artur/aula-ml.git aula-ml-restauracao
 cd aula-ml-restauracao
 git switch --detach modelo-r1
 git status --short
